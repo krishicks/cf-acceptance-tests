@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/cf-acceptance-tests/helpers/v3_helpers"
+	. "github.com/krishicks/cf-acceptance-tests/helpers/v3_helpers"
 
 	"github.com/cloudfoundry-incubator/cf-test-helpers/helpers"
 )

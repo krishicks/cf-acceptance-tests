@@ -38,9 +38,9 @@ Make sure that [curl](http://curl.haxx.se/) is installed on your system.
 Make sure that the go version of `cf` is accessible in your `$PATH`.
 
 Check out a copy of `cf-acceptance-tests` and make sure that it is added to your `$GOPATH`.
-The recommended way to do this is to run `go get -d github.com/cloudfoundry/cf-acceptance-tests`. You will receive a warning "no buildable Go source files"; this can be ignored as there is no compilable go source code in the package, only test code.
+The recommended way to do this is to run `go get -d github.com/krishicks/cf-acceptance-tests`. You will receive a warning "no buildable Go source files"; this can be ignored as there is no compilable go source code in the package, only test code.
 
-All `go` dependencies required by CATs are vendored in `cf-acceptance-tests/Godeps`. The test script itself, [bin/test](https://github.com/cloudfoundry/cf-acceptance-tests/blob/master/bin/test), ensures that the vendored dependencies are available when executing the tests by prepending this directory to `$GOPATH`.
+All `go` dependencies required by CATs are vendored in `cf-acceptance-tests/Godeps`. The test script itself, [bin/test](https://github.com/krishicks/cf-acceptance-tests/blob/master/bin/test), ensures that the vendored dependencies are available when executing the tests by prepending this directory to `$GOPATH`.
 
 You will also of course need a running Cloud Foundry deployment to run these acceptance tess against.
 
