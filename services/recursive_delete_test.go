@@ -1,13 +1,13 @@
 package services_test
 
 import (
-	"github.com/cloudfoundry/cf-acceptance-tests/helpers/app_helpers"
-	. "github.com/cloudfoundry/cf-acceptance-tests/helpers/services"
+	"github.com/krishicks/cf-acceptance-tests/helpers/app_helpers"
+	. "github.com/krishicks/cf-acceptance-tests/helpers/services"
 
 	"github.com/cloudfoundry-incubator/cf-test-helpers/cf"
 	"github.com/cloudfoundry-incubator/cf-test-helpers/generator"
 	"github.com/cloudfoundry-incubator/cf-test-helpers/runner"
-	"github.com/cloudfoundry/cf-acceptance-tests/helpers/assets"
+	"github.com/krishicks/cf-acceptance-tests/helpers/assets"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

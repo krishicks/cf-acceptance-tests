@@ -7,9 +7,9 @@ import (
 	"github.com/cloudfoundry-incubator/cf-test-helpers/cf"
 	"github.com/cloudfoundry-incubator/cf-test-helpers/generator"
 	"github.com/cloudfoundry-incubator/cf-test-helpers/helpers"
-	"github.com/cloudfoundry/cf-acceptance-tests/helpers/app_helpers"
-	"github.com/cloudfoundry/cf-acceptance-tests/helpers/assets"
-	. "github.com/cloudfoundry/cf-acceptance-tests/helpers/v3_helpers"
+	"github.com/krishicks/cf-acceptance-tests/helpers/app_helpers"
+	"github.com/krishicks/cf-acceptance-tests/helpers/assets"
+	. "github.com/krishicks/cf-acceptance-tests/helpers/v3_helpers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
